@@ -1,0 +1,176 @@
+
+footer {
+    padding-top: 51px;
+    background: #150035;
+    padding-bottom: 64px;
+}
+
+footer .logo{
+    display: inline-block;
+}
+
+footer .logo img{
+    max-width: 100%;
+    
+}
+
+footer .logo p{
+    margin-top: 16px;
+}
+
+footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li{
+    font-family: var(--mm);
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 4px 0;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: #FFC800;
+}
+
+footer .f-list{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer .f-list:nth-child(1){
+    width: 40%;
+}
+footer .f-list:nth-child(2){
+    width: 35%;
+}
+footer .f-list:nth-child(3){
+    width: 25%;
+}
+
+.f-list-container{
+    display: flex;
+    width: 100%;
+    max-width: 688px;
+    justify-content: space-between;
+}
+
+footer .form-box {
+    max-width: 310px;
+    width: 100%;
+    margin-left: auto;
+}
+
+footer .form-box a{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+footer .form-box a:hover{
+    text-decoration: none;
+    color: #FFC800;
+}
+
+footer .form-box .submit,
+footer .form-box input{
+    margin: 10px 0;
+}
+
+footer .submit{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    footer .f-list-container{
+        max-width: 100%;
+    }
+
+    footer .f-list{
+        margin-left: 0;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    footer{
+        padding-top: 72px;
+        padding-bottom: 62px;
+    }
+
+    footer .logo{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 17px;
+    }
+
+    footer .logo a{
+        display: inline-block;
+    }
+
+    footer .logo img{
+        margin-right: 23px;
+        max-width: 112px;
+    }
+
+    footer .logo p{
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    footer .form-box{
+        max-width: 100%;
+    }
+
+    footer ul li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    footer .form-box p {
+        margin-bottom: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    footer .f-list-container{
+        flex-wrap: wrap;
+    }
+
+    footer .f-list{
+        width: 100%!important;
+        margin: 10px 0;
+    }
+
+    footer ul{
+        margin-bottom: 0;
+    }
+
+    footer ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    footer .f-list h4{
+        margin-bottom: 4px;
+    }
+
+    footer .form-box{
+        padding-top: 14px;
+    }
+
+}

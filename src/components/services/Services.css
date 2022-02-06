@@ -1,0 +1,59 @@
+
+.sc-services {
+    padding-top: 100px; 
+    padding-bottom: 45px;
+}
+
+.sc-services .service-box {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #FFEDC6;
+    position: relative;
+    padding: 28px 22% 28px 36px;
+    min-height: 243px;
+    z-index: 1;
+}
+
+.sc-services .ser-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+
+}
+
+.sc-services .ser-img img{
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .sc-services .service-box{
+        padding: 32px 23% 32px 24px;
+        min-height: 204px;
+    }
+
+    .sc-services .ser-img{
+        max-width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .sc-services{
+        background: #F9FAF7;
+    }
+    
+
+}
+
+@media only screen and (max-width: 576px) {
+    .sc-services .ser-img{
+        max-width: 150px;
+    }
+}

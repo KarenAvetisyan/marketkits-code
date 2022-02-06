@@ -1,0 +1,91 @@
+
+.sc-contact {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sc-contact .contact-container {
+    position: relative;
+    padding-bottom: 114px;
+}
+
+.sc-contact h2 {
+    margin-bottom: 14px;
+}
+
+.sc-contact .form-title{
+    padding-bottom: 10px;
+}
+
+.sc-contact .form-box{
+    max-width: 717px;
+    width: 100%;
+    display: inline-block;
+}
+
+.sc-contact .form-content{
+    display: inline-block;
+    width: 100%;
+    max-width: 486px;
+}
+
+.sc-contact .submit{
+    margin-top: 14px;
+    width: 100%;
+
+}
+
+.sc-contact .contact-img{
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    max-width: 645px;
+    width: 100%;
+}
+
+.sc-contact .contact-img img{
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .sc-contact .contact-img{
+        max-width: 528px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .sc-contact{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .sc-contact .container{
+        padding-bottom: 0;
+    }
+
+    .sc-contact .contact-img{
+        display: none;
+    }
+
+    .sc-contact .form-title{
+        padding-bottom: 0;
+    }
+
+    .sc-contact .form-title p{
+        margin-bottom: 13px;
+    }
+
+    .sc-contact .form-content{
+        max-width: 100%;
+    }
+
+    .sc-contact .custom__my{
+        margin: 7px 0;
+    }
+}
